@@ -11,7 +11,7 @@ Reproduce an issue with Vert.x threads being blocked
 java -jar target/blocked-vertx-1.0-SNAPSHOT-runner.jar
 ```
 
-## Load test project
+## Load test the application
 
 I used [wrk](https://github.com/wg/wrk) using these settings (on a quad-core, 8 thread machine ):
 
